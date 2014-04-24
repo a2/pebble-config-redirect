@@ -3,5 +3,5 @@ var response = window.location.search.substr(1);
 setTimeout(function() {
   window.location.href = 'pebblejs://close#' + response;
 }, 5000);
-document.write(response);
+document.write('<pre>RESPONSE:\n' + response + '</pre>');
 </script>
